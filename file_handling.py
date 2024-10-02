@@ -18,6 +18,7 @@ def handle_file(file_path):
     time.sleep(5)
     print("Done Sleeping")
     print("Typing")
+    # All report files are password protected at the request of the corporation
     pyautogui.typewrite(EXCEL_PW)
     pyautogui.press("enter")
     # Wait for Excel to open and load the file
