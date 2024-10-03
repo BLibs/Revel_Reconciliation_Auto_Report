@@ -74,10 +74,10 @@ The script can either be ran directly as a Python file or compiled into an .exe 
 ## Scheduling
 
 The script operates differently depending on whether it is the off-season (September to April) or in-season (May to August).
-# Off-Season (September to April)
+### Off-Season (September to April)
 	-	Runs every Monday and generates a report for the entire previous week.
 	-	Date range: 0 to 7 days back.
-# In-Season (May to August)
+### In-Season (May to August)
 	-	Runs twice a week:
 	-	Monday: Generates a report for Thursday, Friday, Saturday, and Sunday.
 	-	Date range: 0 to 4 days back.
