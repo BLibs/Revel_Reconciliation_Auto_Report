@@ -9,7 +9,7 @@ This project automates the generation of a reconciliation report using data pull
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
-- [Scheduling Logic](#scheduling logic)
+- [Scheduling Logic](#scheduling)
 - [Improvements](#improvements)
 
 ## Introduction
@@ -71,7 +71,7 @@ The script can either be ran directly as a Python file or compiled into an .exe 
     ```sh
     pyinstaller --onefile --clean main.py
 
-## Scheduling Logic
+## Scheduling
 
 The script operates differently depending on whether it is the off-season (September to April) or in-season (May to August).
 # Off-Season (September to April)
